@@ -13,15 +13,10 @@ export const BaseLayout = (props: BaseLayoutProps) => {
     return (
         <Box>
             <Header />
-            <Box
-                sx={{
-                    pt: '100px',
-                    pb: '60px',
-                    paddingLeft: '4rem',
-                    paddingRight: '4rem',
-                }}
-            >
-                <Box sx={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>{children}</Box>
+            <Box sx={{ mt: 8, pb: 8 }}>
+                <Box sx={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
+                    {children}
+                </Box>
             </Box>
             <Footer />
         </Box>
