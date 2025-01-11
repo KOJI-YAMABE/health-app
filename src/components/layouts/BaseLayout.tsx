@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Box } from '@mui/material'
 import { Header } from 'components/layouts/Header'
 import { Footer } from 'components/layouts/Footer'

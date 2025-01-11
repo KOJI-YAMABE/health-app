@@ -1,7 +1,8 @@
-import React from 'react'
+
 import { Box } from '@mui/material'
 import { COLORS } from 'components/constants/color'
 import { MenuApp } from 'components/layouts/MenuApp'
+import { NavLink } from 'react-router-dom'
 
 export const Header = () => {
 
@@ -19,7 +20,9 @@ export const Header = () => {
             }}
         >
             <Box sx={{ display: 'flex', position: 'relative', width: '100%', justifyContent: 'space-between', alignItems: 'center' }}>
-                <img src="/logo.png" alt="logo" width={144} style={{ marginLeft: '160px' }} />
+                <NavLink to="/top">
+                    <img src="/logo.png" alt="logo" width={144} style={{ marginLeft: '160px' }} />
+                </NavLink>
                 <MenuApp />
             </Box>
         </Box>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BaseLayout } from 'components/layouts/BaseLayout'
 import { Box } from '@mui/material'
 import { COLORS } from 'components/constants/color'

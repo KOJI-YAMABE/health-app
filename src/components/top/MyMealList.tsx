@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Box, Button, ImageList, ImageListItem, Typography } from '@mui/material'
 import { MealsProps } from 'types/top';
 import { COLORS } from 'components/constants/color';

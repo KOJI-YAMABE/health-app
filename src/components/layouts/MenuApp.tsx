@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { MdMenu } from "react-icons/md";
 import { Box, IconButton } from '@mui/material'
 import { COLORS } from 'components/constants/color';
@@ -8,7 +8,7 @@ import { HeaderMenu } from 'components/layouts/HeaderMenu';
 const HeaderItems: HeaderItemsType[] = [
     {
         title: '自分の記録',
-        link: '/mypage',
+        link: '/my_record',
         icon: <img src='/icons/icon_memo.png' alt='icon_memo' width={27} />
     }, {
         title: 'チャレンジ',

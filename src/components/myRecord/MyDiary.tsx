@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Box, Button, Typography } from '@mui/material'
 import { COLORS } from 'components/constants/color'
 

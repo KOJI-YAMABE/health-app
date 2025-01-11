@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { TopPage } from './pages/TopPage'
 import { MyRecord } from './pages/MyRcord'

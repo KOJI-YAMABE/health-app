@@ -3,13 +3,13 @@ import { COLORS } from 'components/constants/color'
 
 type ChartBoxProps = {
     children: any
-    titile: string
+    title: string
     date: string
     height: number
 }
 
 export const ChartBox = (props: ChartBoxProps) => {
-    const { titile, date, height, children } = props
+    const { title, date, height, children } = props
     return (
         <Box
             sx={{
@@ -25,7 +25,7 @@ export const ChartBox = (props: ChartBoxProps) => {
         >
             <Box sx={{ display: 'flex', gap: 2 }}>
                 <Typography sx={{ fontSize: 15, fontWeight: 400, mr: 2, lineHeight: 1 }}>
-                    {titile}
+                    {title}
                 </Typography>
                 <Typography variant='h6'>{date}</Typography>
             </Box>

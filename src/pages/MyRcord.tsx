@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Box } from '@mui/material'
 import { BaseLayout } from 'components/layouts/BaseLayout'
 import { RecordCard } from 'components/myRecord/RecordCard';
@@ -37,10 +37,10 @@ export const MyRecord = () => {
                                 <RecordCard category={category} />
                             ))}
                         </Box>
-                        <ChartBox titile={`BODY\nRECORD`} date='2021.05.21' height={304}>
+                        <ChartBox title={`BODY\nRECORD`} date='2021.05.21' height={304}>
                             <BodyRecordChart />
                         </ChartBox>
-                        <ChartBox titile={`MY\nEXERCISE`} date='2021.05.21' height={264}>
+                        <ChartBox title={`MY\nEXERCISE`} date='2021.05.21' height={264}>
                             <MyExercise />
                         </ChartBox>
                         <MyDiary />
