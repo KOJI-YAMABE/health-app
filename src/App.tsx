@@ -1,11 +1,19 @@
-import React from 'react';
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { TopPage } from './pages/TopPage'
+import { MyPage } from './pages/MyPage'
+import { ColumnsPage } from 'pages/ColumnsPage'
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-            <h1>React App</h1>
-        </div>
-    );
+        <BrowserRouter>
+            <Routes>
+                <Route path={`/top`} element={<TopPage />} />
+                <Route path={`/mypage`} element={<MyPage />} />
+                <Route path={`/columns`} element={<ColumnsPage />} />
+            </Routes>
+        </BrowserRouter>
+    )
 }
 
-export default App;
+export default App
